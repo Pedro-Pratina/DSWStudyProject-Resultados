@@ -13,6 +13,11 @@
     --white: #FFF;
     --ligth-blue: #CAC9FF;
     --dark-nav: #303B59;
+    --resumo-div-bg: linear-gradient(@deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%);
+    --reacao-bg:#FF5555;
+    --memoria-bg:#FFB21E;
+    --verbal-bg:#00BB3F;
+    --visual-bg:#1125D6;
 }
 
 body {
@@ -75,8 +80,37 @@ body {
     margin-bottom: 2.5rem;
 }
 
-.resultado > div {
+.resumo > div {
     display: flex;
     justify-content: space-between;
-    
+    align-items: center;
+    padding: 1.6rem;
+    border-radius: 1.2rem;
+    margin-bottom: 1.6rem;
+}
+
+.resumo > div div {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.reacao {
+    background: var(--reacao-bg) var(--resumo-div-bg);
+    color: var(--reacao-bg);
+}
+
+.memoria {
+    background: var(--memoria-bg) var(--resumo-div-bg);
+    color: var(--memoria-bg);
+}
+
+.verbal {
+    background: var(--verbal-bg) var(--resumo-div-bg);
+    color: var(--verbal-bg);
+}
+
+.visual {
+    background: var(--visual-bg) var(--resumo-div-bg);
+    color: var(--visual-bg);
 }
