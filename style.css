@@ -12,6 +12,7 @@
     --media-bg: linear-gradient(180deg, #4D21C9 0%,rgba(37, 33, 201, 0.00) 100%,rgba(37, 33, 201, 0.00) 100%);
     --white: #FFF;
     --ligth-blue: #CAC9FF;
+    --dark-nav: #303B59;
 }
 
 body {
@@ -62,4 +63,20 @@ body {
     max-width: 26rem;
     margin-inline: auto;
     color: var(--ligth-blue);
+}
+
+.resumo {
+    padding: 2.4rem 3.2rem;
+}
+
+.resumo h2 {
+    color: var(--dark-nav);
+    font-size: 1.8rem;
+    margin-bottom: 2.5rem;
+}
+
+.resultado > div {
+    display: flex;
+    justify-content: space-between;
+    
 }
