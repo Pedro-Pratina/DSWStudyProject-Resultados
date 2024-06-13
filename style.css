@@ -31,7 +31,7 @@ body {
     background: var(--resuldado-bg);
     text-align: center;
     color: var(--white);
-    boder-radius: 0 0 3.2rem 3.2rem;
+    borde-radius: 0 0 3.2rem 3.2rem;
 }
 
 .resultado h1 {
